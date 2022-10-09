@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/* .container {
+  max-width: 75%;
+  margin: 100px auto;
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+} */
+
+.apply-box {
+  max-width: 35%;
+  padding: 20px;
+  padding-bottom: 100px;
+  background-color: #1f2937;
+  margin: 100px auto;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.3);
+  border-radius: 10px;
+}
+
+.try {
+  display: inline-block;
+  text-align: center;
+  padding: 200px auto;
+}
+
+.heading {
+  margin-top: 100px;
+}
+#heading-one {
+  color: white;
+  font-size: 40px;
+  font-family: "Karla", sans-serif;
+}
+#heading-two {
+  color: #4adf86;
+  font-size: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pwd-one,
+#pwd-two {
+  color: #4adf86;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #273549;
+  position: relative;
+  display: inline-block;
+  width: 211px;
+  height: 35px;
+  margin: 25px 25px 25px 0px;
+  padding: 7px;
+}
+
+#about {
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+  color: #d5d4d8;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  width: 100%;
+}
+
+button {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  padding: 9px 17px 9px 15px;
+  width: 187px;
+  background-color: #4adf86;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: none;
+  transition: 0.2s ease-in;
+}
+
+button:hover {
+  background-color: #273549;
+  border: 2px solid #4adf86;
+  color: #4adf86;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+
+/* p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+  color: #d5d4d8;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 28px;
+  width: 100%;
+} */
+
+hr {
+  /* position: relative; */
+  margin-top: 40px;
+  margin-bottom: 15px;
+
+  width: 80%;
+  height: 0px;
+  left: 52px;
+  top: 361px;
+
+  border: 1px solid #2f3e53;
+}
